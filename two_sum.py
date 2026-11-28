@@ -1,5 +1,7 @@
-array = [1, 2, 3, 10, 20]
-target = 30
+
+array = list(map(int, input("Enter numbers: ").split(",")))
+target = int(input("Enter target: "))
+
 
 result = []
 
